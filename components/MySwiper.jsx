@@ -93,7 +93,7 @@ const MySwiper = () => {
                     <SwiperSlide>
                     <div className=" h-full w-11/12 mx-auto group xl:flex block justify-center
                         items-center ">
-                            <div className=" xl:hidden block w-3/4 mx-auto my-0">
+                            <div className=" xl:hidden block md:-mb-56 w-3/4 mx-auto md:pt-32">
                             <img src={object.image} alt="" />
                         </div>
 
