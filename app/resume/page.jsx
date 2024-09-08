@@ -5,6 +5,7 @@ import "../resume/page.css";
 
 // Importing TagCloud package
 import TagCloud from "TagCloud";
+import MyTagcloud from "./MyTagcloud";
 
 const Resume = () => {
   // Animation settings for Text Cloud
@@ -43,6 +44,7 @@ const Resume = () => {
       <div className="text-shpere" id="resume">
         {/* span tag className must be "tagcloud"  */}
         <span className="tagcloud"></span>
+        <MyTagcloud />
       </div>
     </>
   );

@@ -10,7 +10,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const Home = () => {
 
   const [text] = useTypewriter({
-    words: ['Web Developer', 'Frontend Developers', 'Backend Developers', 'UI/UX Designers', 'Logo Designers', 'Game Developers'],
+    words: ['Web Developers', 'Frontend Developers', 'Backend Developers', 'UI/UX Designers', 'Logo Designers', 'Game Developers'],
     loop: 100,
     onLoopDone: () => console.log(`loop completed after 100 runs.`),
     typeSpeed: 120,

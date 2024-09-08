@@ -23,4 +23,20 @@
         -webkit-text-stroke: 1px #387e70;
     }
 }
+.radial-gradient {
+    background: repeating-radial-gradient(
+        #387e70 2px,
+      #1c1c22 5px,
+      #1c1c22 100px
+    );
+  }
 
+@media screen and (max-width: 1199px) {
+    .radial-gradient {
+        background: repeating-radial-gradient(
+            #387e70 2px,
+          #1c1c22 5px,
+          #1c1c22 60px
+        );
+      }
+}
