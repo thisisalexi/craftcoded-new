@@ -19,8 +19,8 @@ const projects = [
       description: "E-commerce website with payment method, to customers taste",
       stack: "html 5, css 3, javascript",
       image: "/assets/shopping.png",
-      live: "",
-      github: "",
+      live: "https://craftcodedjobs.github.io/Shopping/",
+      github: "https://github.com/craftcodedjobs/Shopping",
     },
     {
       num: "02",
@@ -28,9 +28,9 @@ const projects = [
       title: "project 2",
       description: "Different logo samples",
       stack: "canva, photoshop, coreldraw",
-      image: "/assets/wakanda.png",
-      live: "",
-      github: "",
+      image: "/assets/logo.png",
+      live: "https://craftcodedjobs.github.io/Logo/",
+      github: "https://github.com/craftcodedjobs/Logo",
     },
     {
         num: "02",
@@ -38,9 +38,9 @@ const projects = [
         title: "project 2",
         description: "Different logo samples",
         stack: "canva, photoshop, coreldraw",
-        image: "/assets/wakanda.png",
-        live: "",
-        github: "",
+        image: "/assets/logo.png",
+        live: "https://craftcodedjobs.github.io/Logo/",
+        github: "https://github.com/craftcodedjobs/Logo",
       },
     {
       num: "03",
@@ -48,9 +48,9 @@ const projects = [
       title: "project 3",
       description: "Cloning of a crypto based project Wakanda Inu ",
       stack: "Nextjs, tailwindcss",
-      image: "/assets/thisisalexi.png",
-      live: "",
-      github: "",
+      image: "/assets/wakandanew.png",
+      live: "https://craftcodedjobs.github.io/Wakandaclone/",
+      github: "https://github.com/craftcodedjobs/Wakandaclone",
     },
     {
         num: "03",
@@ -58,19 +58,19 @@ const projects = [
         title: "project 3",
         description: "Cloning of a crypto based project Wakanda Inu ",
         stack: "Nextjs, tailwindcss",
-        image: "/assets/thisisalexi.png",
-        live: "",
-        github: "",
+        image: "/assets/wakandanew.png",
+        live: "https://craftcodedjobs.github.io/Wakandaclone/",
+        github: "https://github.com/craftcodedjobs/Wakandaclone",
       },
     {
       num: "04",
       category: "Game development",
       title: "project 3",
-      description: "Simple tic-tac-toe game ",
+      description: "Flappy bird game ",
       stack: "java",
-      image: "/assets/slide9.png",
-      live: "",
-      github: "",
+      image: "/assets/slide8.png",
+      live: "https://craftcodedjobs.github.io/Flappygame/",
+      github: "https://github.com/craftcodedjobs/Flappygame",
     },
   
   ];
@@ -91,7 +91,7 @@ const MySwiper = () => {
                 <div key={index}>
 
                     <SwiperSlide>
-                    <div className=" h-full group xl:flex block justify-center
+                    <div className=" h-full w-11/12 mx-auto group xl:flex block justify-center
                         items-center ">
                             <div className=" xl:hidden block w-3/4 mx-auto my-0">
                             <img src={object.image} alt="" />
@@ -124,7 +124,7 @@ const MySwiper = () => {
                             </div>
                             
                             <div className="flex mt-10 ml-6 xl:-mt-24 items-center gap-4">
-                                <Link href={object.live}>
+                                <Link target='_blank' href={object.live}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -137,7 +137,7 @@ const MySwiper = () => {
                                     </TooltipProvider>
                                 </Link>
 
-                                <Link href={object.github}>
+                                <Link target='_blank' href={object.github}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">

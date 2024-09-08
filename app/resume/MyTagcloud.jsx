@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Skill = ({name, x, y}) => {
     return(
-        <motion.div className='text-black bg-white w-fit flex justify-center items-center p-3 shadow-black rounded-full mx-auto cursor-pointer'
+        <motion.div className='text-accent bg-white w-fit flex justify-center items-center p-3 shadow-black rounded-full mx-auto cursor-pointer'
         whileHover={{scale:1.20}}
         initial={{x:0,y:0}}
         animate={{x:x,y:y}}
@@ -20,7 +20,7 @@ const MyTagcloud = () => {
   return (
     <div className=' h-full mt-52 mb-32'>
         <h2 className="
-              xl:text-[42px] text-[26px] font-bold leading-none text-white w-full flex justify-center mb-10"
+              xl:text-[42px] text-[26px] font-bold leading-none text-accent w-full flex justify-center mb-10"
               >
                 Our Skills
               </h2>
@@ -29,7 +29,7 @@ const MyTagcloud = () => {
               {/* desktop view */}
               
             <div className='radial-gradient hidden xl:flex items-center justify-between w-screen h-full'>
-                <motion.div className='text-black bg-white flex justify-center items-center p-3 shadow-black rounded-full mx-auto cursor-pointer'
+                <motion.div className='text-accent bg-white flex justify-center items-center p-3 shadow-black rounded-full mx-auto cursor-pointer'
                 whileHover={{scale:1.20}}
                 initial={{x:0,y:0}}
                 animate={{x:0,y:0}}
