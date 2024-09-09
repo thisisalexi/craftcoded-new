@@ -20,7 +20,7 @@ const projects = [
       stack: "html 5, css 3, javascript",
       image: "/assets/shopping.png",
       live: "https://craftcodedjobs.github.io/Shopping/",
-      github: "https://github.com/craftcodedjobs/Shopping",
+      github: "https://craftcodedjobs.github.io/Shopping/",
     },
     {
       num: "02",
@@ -30,7 +30,7 @@ const projects = [
       stack: "canva, photoshop, coreldraw",
       image: "/assets/logo.png",
       live: "https://craftcodedjobs.github.io/Logo/",
-      github: "https://github.com/craftcodedjobs/Logo",
+      github: "https://craftcodedjobs.github.io/Logo/",
     },
     {
         num: "02",
@@ -40,7 +40,7 @@ const projects = [
         stack: "canva, photoshop, coreldraw",
         image: "/assets/logo.png",
         live: "https://craftcodedjobs.github.io/Logo/",
-        github: "https://github.com/craftcodedjobs/Logo",
+        github: "https://craftcodedjobs.github.io/Logo/",
       },
     {
       num: "03",
@@ -50,7 +50,7 @@ const projects = [
       stack: "Nextjs, tailwindcss",
       image: "/assets/wakandanew.png",
       live: "https://craftcodedjobs.github.io/Wakandaclone/",
-      github: "https://github.com/craftcodedjobs/Wakandaclone",
+      github: "https://craftcodedjobs.github.io/Wakandaclone/",
     },
     {
         num: "03",
@@ -60,7 +60,7 @@ const projects = [
         stack: "Nextjs, tailwindcss",
         image: "/assets/wakandanew.png",
         live: "https://craftcodedjobs.github.io/Wakandaclone/",
-        github: "https://github.com/craftcodedjobs/Wakandaclone",
+        github: "https://craftcodedjobs.github.io/Wakandaclone/",
       },
     {
       num: "04",
@@ -70,7 +70,7 @@ const projects = [
       stack: "java",
       image: "/assets/slide8.png",
       live: "https://craftcodedjobs.github.io/Flappygame/",
-      github: "https://github.com/craftcodedjobs/Flappygame",
+      github: "https://craftcodedjobs.github.io/Flappygame/",
     },
   
   ];
